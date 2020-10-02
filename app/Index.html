@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- magnific pop up js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js" integrity="sha512-C1zvdb9R55RAkl6xCLTPt+Wmcz6s+ccOvcr6G57lbm8M2fbgn2SUjUJbQ13fEyjuLViwe97uJvwa1EUf4F1Akw==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+    <!-- MDB core JavaScript -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <section class="sale">
+        <div class="container">
+            <div class="sale__text--padding">
+                <h3 class="pr-3">
+                    🔥HURRY UP! 50% SALE OFF NOW
+                </h3>
+                <a href="#" class="pl-2">BUY NOW<i class="lni lni-chevron-right pl-2"></i></a>
+            </div>
+        </div>
+    </section>
+    <header class="masthead">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark shadow-none">
+                <a class="navbar-brand" href="#"><img src="css/img/Logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu_CamW" aria-controls="navbarMenu_CamW" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="lni lni-menu"></i></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarMenu_CamW">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                   Home
+                                </a>
+                        </li>
+                        <li class="nav-item nav__li--left">
+                            <a class="nav-link" href="#">
+                                    Feature</a>
+                        </li>
+                        <li class="nav-item nav__li--left">
+                            <a class="nav-link" href="#">
+                                    Testimonial</a>
+                        </li>
+                        <li class="nav-item nav__li--left">
+                            <a class="nav-link" href="#">
+                                    Faqs</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="masthead__content text-center">
+                <div class="masthead__content--smalltitle pb-1">
+                    <h4>LOGITECH C920S WEBCAM</h4>
+                </div>
+                <div class="masthead__content--bigtitle pb-4">
+                    <h1>The camera you must-have for working and learning online more professionally!</h1>
+                </div>
+                <div class="pt-3">
+                    <a class=" btn-blue">BUY AT 50% SALE OFF NOW</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>A Product from Logitech</h3>
+                    <h2></h2>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        Honored by Fast Company as One of the Top 10 <span class="text-attention">Most Innovative Companies</span> in Design For 2020. Logitech designs products that have an everyday place in people's lives, connecting them to the digital
+                        experiences they care about.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="css/img/posterVideo.png" alt="poster" class="img-fluid">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
