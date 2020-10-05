@@ -14,6 +14,18 @@ p {
     padding: 0 !important;
 }
 
+.padding-top__30 {
+    padding-top: 30px;
+}
+
+.padding-bottom__30 {
+    padding-bottom: 30px;
+}
+
+.padding-lef__30 {
+    padding-left: 30px;
+}
+
 .sale {
     font-family: 'Inter';
     background-color: #302f2d;
@@ -209,5 +221,180 @@ p {
     }
     .text-attention {
         font-weight: 600;
+    }
+}
+
+.Features {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    h4 {
+        font-size: 14px !important;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.57;
+        letter-spacing: 2px;
+        color: #4260ff;
+    }
+    h2 {
+        font-size: 3rem !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: -0.96px;
+        color: #000000;
+    }
+    p {
+        font-size: 1rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #555555;
+    }
+    .title__center,
+    .description__center {
+        width: 50%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+    .title__center {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .description__center {
+        padding-bottom: 60px;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        color: #000000;
+    }
+    .Feetures__description {
+        margin-bottom: 30px;
+    }
+    ul {
+        list-style-type: none;
+    }
+    ul,
+    li {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    li::marker {
+        display: none;
+    }
+    .is-active {
+        background-color: rgba(22, 83, 201, 0.04);
+        border-left: 3px solid #1653c9;
+    }
+}
+
+.news {
+    .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-top: 1px solid #dddddd;
+    }
+    .row {
+        padding-bottom: 60px;
+    }
+    .row:last-child {
+        padding-bottom: 0;
+    }
+    h3 {
+        font-size: 2rem !important;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.64px;
+        color: #000000;
+    }
+    .text-attention {
+        color: #282fde;
+    }
+    p {
+        font-size: 1rem !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #555555;
+    }
+    .padding-bottom__32 {
+        padding-bottom: 32px;
+    }
+}
+
+.review {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f9f9f9;
+}
+
+.saleoff {
+    background-image: url("img/Bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    ul {
+        list-style-type: none;
+    }
+    ul,
+    li {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    li::marker {
+        display: none;
+    }
+    h2 {
+        font-size: 3.5rem !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: -1.12px;
+        color: #ffffff;
+    }
+    .text-attention {
+        font-weight: bold;
+        color: #ff1f11;
+    }
+    ul li span {
+        font-size: 48px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding-bottom: 4px;
+    }
+    li {
+        padding-right: 40px !important;
+    }
+    p {
+        font-size: 1rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .btn-blue {
+        padding: 16px 60px;
     }
 }
