@@ -99,24 +99,37 @@
     </header>
     <section class="video">
         <div class="container">
-            <div class="row">
+            <div class="row video__relative">
                 <div class="col-md-4">
-                    <h3>A Product from Logitech</h3>
-                    <h2></h2>
+                    <h3 class="pb-4">A Product from Logitech</h3>
+                    <div class="video__text--big">
+                        Logitech
+                    </div>
                 </div>
-                <div class="col-md-2">
-
+                <div class="col-md-3">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5 d-flex align-items-center">
                     <p>
                         Honored by Fast Company as One of the Top 10 <span class="text-attention">Most Innovative Companies</span> in Design For 2020. Logitech designs products that have an everyday place in people's lives, connecting them to the digital
                         experiences they care about.
                     </p>
                 </div>
             </div>
-            <div>
-                <img src="css/img/posterVideo.png" alt="poster" class="img-fluid">
+            <div class="video__absolute">
+                <div class="video-content">
+                    <div class="btn-video">
+                        <a href="https://www.youtube.com/watch?v=6WN8lfVJuc0" class="video">
+                            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="60" cy="60" r="60" fill="white"></circle>
+                        <path d="M80 60L50 80.7846L50 39.2154L80 60Z" fill="currentColor"></path>
+                      </svg>
+                        </a>
+                    </div>
+                    <div class="poster">
+                        <img src="css/img/posterVideo.png" alt="poster" class="img-fluid"> </div>
+                </div>
             </div>
+        </div>
         </div>
     </section>
     <section class="Features">
@@ -323,13 +336,16 @@
             <div class="row slide">
                 <div class="col-md-6">
                     <div class="comment">
-                        <div class="text pb-4">
-                            <h3>Logitech C920s Pro - a great webcam!</h3>
-                        </div>
                         <div>
-                            <p>Camera arrived brand new. in the original box. Picture is great. The software that you have to download from the Logitech site (Logitech video capture) allows more camera control (zoom, contrast, tilt, pan etc.) Great image
-                                quality.. Very easy to set up and use.</p>
+                            <div class="text pb-4">
+                                <h3>Logitech C920s Pro - a great webcam!</h3>
+                            </div>
+                            <div>
+                                <p>Camera arrived brand new. in the original box. Picture is great. The software that you have to download from the Logitech site (Logitech video capture) allows more camera control (zoom, contrast, tilt, pan etc.) Great image
+                                    quality.. Very easy to set up and use.</p>
+                            </div>
                         </div>
+                        <i class="lni lni-quotation"></i>
                     </div>
                     <div class="user">
                         <img src="css/img/avartar1.png" alt="avatar" class="img-fluid">
@@ -345,12 +361,15 @@
                 </div>
                 <div class="col-md-6">
                     <div class="comment">
-                        <div class="text pb-4">
-                            <h3>Awesome vendor and camera <span style="color: red;">❤</span></h3>
-                        </div>
                         <div>
-                            <p>Contacted the vendor before I made purchase because I had some concerns about how long it would take to get the camera. He answered my call immediately he walked me through everything thing on the camera. </p>
+                            <div class="text pb-4">
+                                <h3>Awesome vendor and camera <span style="color: red;">❤</span></h3>
+                            </div>
+                            <div>
+                                <p>Contacted the vendor before I made purchase because I had some concerns about how long it would take to get the camera. He answered my call immediately he walked me through everything thing on the camera. </p>
+                            </div>
                         </div>
+                        <i class="lni lni-quotation"></i>
                     </div>
                     <div class="user">
                         <img src="css/img/avartar2.png" alt="avatar" class="img-fluid">
@@ -366,12 +385,15 @@
                 </div>
                 <div class="col-md-6">
                     <div class="comment">
-                        <div class="text pb-4">
-                            <h3>Awesome vendor and camera <span style="color: red;">❤</span></h3>
-                        </div>
                         <div>
-                            <p>Contacted the vendor before I made purchase because I had some concerns about how long it would take to get the camera. He answered my call immediately he walked me through everything thing on the camera. </p>
+                            <div class="text pb-4">
+                                <h3>Awesome vendor and camera <span style="color: red;">❤</span></h3>
+                            </div>
+                            <div>
+                                <p>Contacted the vendor before I made purchase because I had some concerns about how long it would take to get the camera. He answered my call immediately he walked me through everything thing on the camera. </p>
+                            </div>
                         </div>
+                        <i class="lni lni-quotation"></i>
                     </div>
                     <div class="user">
                         <img src="css/img/avartar2.png" alt="avatar" class="img-fluid">
@@ -439,7 +461,7 @@
                         </ul>
                     </div>
                     <div class="quantity">
-                        <div class="text">
+                        <div class="text pr-4">
                             QUANTITY
                         </div>
                         <div class="quantity__group">
@@ -618,15 +640,147 @@
                     with Other Products
                 </h2>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <img src="css/img/productC922.png" alt="C922" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <div class="card__name  text-center">
+                            C922
+                        </div>
+                        <div class="card__des">
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>1080p at 30 fps HD 720p at 30 fps</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-close"></i>
+                                <h5>Video Quality Better</h5>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Auto Focus</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-close"></i>
+                                <h5>Full HD Glass of Lens</h5>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Stereo of Microphone</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-close"></i>
+                                <h5>Compatible with logitech capture</h5>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Privacy Cover</h4>
+                            </div>
+                        </div>
+                        <div class="card__price">
+                            <div class="card__price--opacity">
+                                $124
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-
+                <div class="card">
+                    <div class="card-header text-center">
+                        <img src="css/img/productC920S.png" alt="C920S" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <div class="card__name  text-center">
+                            C920S
+                        </div>
+                        <div class="card__des">
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>1080p at 30 fps HD 720p at 30 fps</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Video Quality Better</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Auto Focus</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Full HD Glass of Lens</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Stereo of Microphone</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Compatible with logitech capture</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Privacy Cover</h4>
+                            </div>
+                        </div>
+                        <div class="card__price">
+                            <div class="card__price--opacity pb-2">
+                                <del>$140.00</del>
+                            </div>
+                            <div class="card__price--red">
+                                $69.00
+                            </div>
+                            <div class="card__button">
+                                <a class=" btn-blue" href="#"> BUY IT NOW</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-
+                <div class="card">
+                    <div class="card-header text-center">
+                        <img src="css/img/productC615.png" alt="C615" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <div class="card__name  text-center">
+                            C615
+                        </div>
+                        <div class="card__des">
+                            <div class="dflex-baseline">
+                                <i class="lni lni-close"></i>
+                                <h5>1080p at 30 fps HD 720p at 30 fps</h5>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Video Quality Better</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Auto Focus</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Full HD Glass of Lens</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Stereo of Microphone</h4>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-close"></i>
+                                <h5>Compatible with logitech capture</h5>
+                            </div>
+                            <div class="dflex-baseline">
+                                <i class="lni lni-checkmark-circle"></i>
+                                <h4>Privacy Cover</h4>
+                            </div>
+                        </div>
+                        <div class="card__price">
+                            <div class="card__price--opacity">
+                                $120
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -722,7 +876,70 @@
             </div>
         </div>
     </section>
-    <section class="last-banner"></section>
+    <section class="lastbanner">
+        <div class="container">
+            <div class="lastbanner__title">
+                <h2>
+                    Remove the gap with Logitech C902S Webcam to study and work-from-home
+                </h2>
+            </div>
+            <div class="lastbanner__button">
+                <a class="btn-blue" href="#">
+                    I WANT THIS
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="delivery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 dflex-start">
+                    <i class="lni lni-rocket"></i>
+                    <div class="pl-3">
+                        <div class="delivery__text--bold pb-1">
+                            INSTANT
+                        </div>
+                        <div class="delivery__text--opacity">
+                            DELIVERY
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 dflex-start">
+                    <i class="lni lni-calendar"></i>
+                    <div class="pl-3">
+                        <div class="delivery__text--bold pb-1">
+                            10 YEARS
+                        </div>
+                        <div class="delivery__text--opacity">
+                            OF EXPERIENCE
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 dflex-center">
+                    <i class="lni lni-support"></i>
+                    <div class="pl-3">
+                        <div class="delivery__text--bold pb-1">
+                            FAST SUPPORT
+                        </div>
+                        <div class="delivery__text--opacity">
+                            24/24
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 dflex-end">
+                    <i class="lni lni-cup"></i>
+                    <div class="pl-3">
+                        <div class="delivery__text--bold pb-1">
+                            10k+ CERTIFICATE
+                        </div>
+                        <div class="delivery__text--opacity">
+                            CUSTOMERS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="text-center">
         <div class="container">
             <div class="text-center py-4">

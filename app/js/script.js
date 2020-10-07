@@ -13,11 +13,9 @@ $(document).ready(function() {
         slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [{
-
                 breakpoint: 992,
                 settings: {
                     arrows: false,
-
                     slidesToShow: 1
                 }
             },
@@ -25,8 +23,6 @@ $(document).ready(function() {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
-
-
                     slidesToShow: 1
                 }
             },
@@ -34,11 +30,22 @@ $(document).ready(function() {
                 breakpoint: 480,
                 settings: {
                     arrows: false,
-
                     slidesToShow: 1
                 }
             }
         ]
+    });
+    $('.video').magnificPopup({
+        type: 'iframe',
+        iframe: {
+            patterns: {
+                youtube: {
+                    index: 'youtube.com/',
+                    id: 'v=',
+                    src: 'https://www.youtube.com/embed/%id%?autoplay=2'
+                },
+            }
+        }
     });
 });
 let countDown = new Date('December 31, 2020 00:00:00').getTime();
