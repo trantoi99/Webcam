@@ -14,6 +14,73 @@ p {
     padding: 0 !important;
 }
 
+.heart {
+    font-size: 150px;
+    color: #e00;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+
+/* Heart beat animation */
+
+@keyframes beat {
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.btn-heart {
+    -webkit-animation: beat .25s infinite alternate;
+    -moz-animation: beat .25s infinite alternate;
+    -ms-animation: beat .25s infinite alternate;
+    -o-animation: beat .25s infinite alternate;
+    animation: beat .25s infinite alternate;
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -o-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+}
+
+@keyframes beat {
+    to {
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+@-moz-keyframes beat {
+    to {
+        -moz-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+@-webkit-keyframes beat {
+    to {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+@-ms-keyframes beat {
+    to {
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+@-o-keyframes beat {
+    to {
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
 .padding-top__30 {
     padding-top: 30px;
 }
@@ -271,11 +338,16 @@ p {
         color: rgb(0, 0, 0);
     }
     .video__text--big {
+        font-family: Poppins;
         font-style: normal;
         font-weight: bold;
         font-size: 96px;
         line-height: 120px;
-        font-family: Poppins;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #000000;
     }
 }
 
@@ -1154,6 +1226,16 @@ p {
 
 footer {
     background-color: #2a2a2a;
+    h3 {
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.96px;
+        color: #4172f0;
+    }
     .icon-spacing {
         padding-left: 8px;
         padding-top: 16px;
@@ -1165,7 +1247,7 @@ footer {
         width: 48px;
         height: 48px;
         border-radius: 50%;
-        background-color: #f3f4fa;
+        background-color: rgba(243, 244, 250, 0.2);
         align-items: center;
     }
     .social>a {
@@ -1192,5 +1274,18 @@ footer {
         line-height: 1.57;
         letter-spacing: normal;
         color: #ffffff;
+    }
+    .vertical-line {
+        border-left: 2px solid #d3d3d3;
+        height: 12px;
+    }
+    h5 {
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #aaaaaa;
     }
 }
