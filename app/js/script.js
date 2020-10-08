@@ -42,7 +42,7 @@ $(document).ready(function() {
                 youtube: {
                     index: 'youtube.com/',
                     id: 'v=',
-                    src: 'https://www.youtube.com/embed/%id%?autoplay=2'
+                    src: 'https://www.youtube.com/watch?v=DB8L1ni0CVA'
                 },
             }
         }
