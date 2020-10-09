@@ -268,6 +268,31 @@ p {
             margin-top: 60px;
         }
     }
+    @media only screen and (max-width: 767px) {
+        #slide-navbar-collapse {
+            position: fixed;
+            top: 0;
+            left: 15px;
+            z-index: 99;
+            width: 280px;
+            height: 100%;
+            background-color: #ddd;
+            overflow: auto;
+        }
+        .menu-overlay {
+            display: none;
+            background-color: #000;
+            bottom: 0;
+            left: 0;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            /* IE7 & 8 */
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: 49;
+        }
+    }
     @media screen and (max-width:576px) {
         .masthead__content {
             margin-top: 40px;
@@ -1121,7 +1146,10 @@ p {
     }
     @media screen and (max-width:576px) {
         padding-top: 60px;
-        padding-bottom: 100px;
+        padding-bottom: 60px;
+        .slick-dots {
+            bottom: -60px;
+        }
         .title__center {
             width: 100%;
         }

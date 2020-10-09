@@ -206,6 +206,28 @@ p {
         font-size: 3rem; }
     .masthead .masthead__content {
       margin-top: 60px; } }
+  @media only screen and (max-width: 767px) {
+    .masthead #slide-navbar-collapse {
+      position: fixed;
+      top: 0;
+      left: 15px;
+      z-index: 99;
+      width: 280px;
+      height: 100%;
+      background-color: #ddd;
+      overflow: auto; }
+    .masthead .menu-overlay {
+      display: none;
+      background-color: #000;
+      bottom: 0;
+      left: 0;
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+      /* IE7 & 8 */
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 49; } }
   @media screen and (max-width: 576px) {
     .masthead .masthead__content {
       margin-top: 40px; }
@@ -902,7 +924,9 @@ p {
   @media screen and (max-width: 576px) {
     .testimonial {
       padding-top: 60px;
-      padding-bottom: 100px; }
+      padding-bottom: 60px; }
+      .testimonial .slick-dots {
+        bottom: -60px; }
       .testimonial .title__center {
         width: 100%; }
       .testimonial h2 {
