@@ -257,6 +257,7 @@ p {
     }
     @media screen and(max-width :768px) {
         .masthead__content {
+            padding-bottom: 350px;
             .masthead__content--bigtitle {
                 h1 {
                     font-size: 3rem;
@@ -581,6 +582,9 @@ p {
         h2 {
             font-size: 36px;
         }
+        .order-col {
+            order: -1;
+        }
     }
 }
 
@@ -842,6 +846,10 @@ p {
         letter-spacing: -0.32px;
         color: #ffffff;
         font-size: 1rem;
+    }
+    @media screen and (max-width:576px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 
@@ -1312,6 +1320,9 @@ p {
     .btn-blue {
         padding: 20px 140px;
     }
+    .button__maxwidth {
+        width: 100%;
+    }
     @media screen and (max-width:1032px) {
         .btn-blue {
             padding: 20px 100px;
@@ -1341,7 +1352,11 @@ p {
             flex: 0 0 100%;
             max-width: 100%;
         }
-        .col-md-5:first-child {
+        ul {
+            justify-content: center;
+        }
+        .order-col {
+            order: -1;
             padding-bottom: 30px;
         }
     }
@@ -1851,8 +1866,8 @@ p {
             flex-wrap: wrap;
         }
         .col-md-3 {
-            flex: 0 0 100%;
-            max-width: 100%;
+            flex: 0 0 50%;
+            max-width: 50%;
             padding-bottom: 16px;
         }
         .dflex-start,
