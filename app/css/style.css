@@ -205,7 +205,12 @@ p {
       .masthead .masthead__content .masthead__content--bigtitle h1 {
         font-size: 3rem; }
     .masthead .masthead__content {
-      margin-top: 60px; } }
+      margin-top: 60px; }
+    .masthead ul {
+      top: 0%;
+      position: absolute;
+      left: 67%;
+      background-color: #f9f9f9; } }
   @media only screen and (max-width: 767px) {
     .masthead #slide-navbar-collapse {
       position: fixed;
@@ -231,8 +236,10 @@ p {
   @media screen and (max-width: 576px) {
     .masthead .masthead__content {
       margin-top: 40px; }
-    .masthead .masthead__content .masthead__content--bigtitle h1 {
-      font-size: 2rem !important; } }
+    .masthead .masthead__content {
+      margin-top: 85px; }
+      .masthead .masthead__content .masthead__content--bigtitle h1 {
+        font-size: 2rem !important; } }
   @media screen and (max-width: 430px) {
     .masthead .btn-blue {
       padding: 20px 20px; } }

@@ -267,6 +267,12 @@ p {
         .masthead__content {
             margin-top: 60px;
         }
+        ul {
+            top: 0%;
+            position: absolute;
+            left: 67%;
+            background-color: #f9f9f9;
+        }
     }
     @media only screen and (max-width: 767px) {
         #slide-navbar-collapse {
@@ -298,6 +304,7 @@ p {
             margin-top: 40px;
         }
         .masthead__content {
+            margin-top: 85px;
             .masthead__content--bigtitle {
                 h1 {
                     font-size: 2rem !important;
