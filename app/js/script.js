@@ -35,6 +35,9 @@ $(document).ready(function() {
             }
         ]
     });
+    $('.nav-button').click(function() {
+        $('body').toggleClass('nav-open');
+    });
     $('.button').magnificPopup({
         items: {
             src: 'https://www.youtube.com/watch?v=4ZHp5KNXTPA'
