@@ -242,7 +242,12 @@ p {
         font-size: 2rem !important; } }
   @media screen and (max-width: 430px) {
     .masthead .btn-blue {
-      padding: 20px 20px; } }
+      padding: 20px 20px; }
+    .masthead ul {
+      top: 0%;
+      position: absolute;
+      left: 50%;
+      background-color: #f9f9f9; } }
   @media screen and (max-width: 320px) {
     .masthead .btn-blue {
       padding: 20px 10px; } }
