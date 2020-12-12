@@ -169,7 +169,6 @@ p {
 }
 
 .btn-blue {
-    font-family: Inter;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
@@ -2311,4 +2310,86 @@ footer h5 {
     footer .icon-spacing {
         padding-bottom: 16px;
     }
+}
+
+.quantity {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    /* hide quantity in input */
+}
+
+.quantity .text {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.quantity input {
+    text-align: center;
+    width: 32px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+    outline: none;
+}
+
+.quantity [type=number] {
+    border: none;
+    appearance: none;
+    appearance: textfield;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    outline: none;
+}
+
+.quantity input[type="number"]::-webkit-outer-spin-button,
+.quantity input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity .minus,
+.quantity .plus {
+    border: none;
+    background: white;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.quantity .quantity_group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 3px;
+    height: 64px;
+    border-radius: 12px;
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+    padding: 10px 8px;
+    margin-right: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.quantity .quantity_group i {
+    opacity: 0.5;
 }
